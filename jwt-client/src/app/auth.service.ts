@@ -12,10 +12,7 @@ export class AuthService {
     return this.loggedIn.asObservable();
   }
 
-  constructor(
-    private router: Router,
-    private server: ServerService
-  ) {
+  constructor(private router: Router, private server: ServerService) {
     console.log("Auth Service");
     const userData = localStorage.getItem('user');
     if (userData) {

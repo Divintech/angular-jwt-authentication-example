@@ -10,9 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const oktaConfig = {
-  issuer: 'https://dev-133320.okta.com/oauth2/default',
+  issuer: 'https://dev-904315.okta.com/oauth2/default',
   redirectUri: 'http://localhost:4200/implicit/callback',
-  clientId: '0oaljmh2zKzsjYv3o356',
+  clientId: '0oa2lrddl5UJ5kEPR357',
   scope: 'openid profile'
 };
 
